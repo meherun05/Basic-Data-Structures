@@ -2,9 +2,9 @@
 
 int main(){
     
-  // for(int j = 5; j<=10; j++){
-  //   printf("some\n");
-  // }
+  for(int j = 5; j<=10; j++){
+    printf("%d\n",j, "Yes");
+  }
 
 //   for(int i=0;i<=5;i++)
 // {
@@ -43,9 +43,9 @@ int main(){
 //   printf("%d\n",i);
 // }
 
-int i = 5;
-while(i<10){
-  printf("i\n");
-  i++;
-}
+// int i = 5;
+// while(i<10){
+//   printf("i\n");
+//   i++;
+// }
 }
