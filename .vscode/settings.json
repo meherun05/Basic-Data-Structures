@@ -1,6 +1,7 @@
 {
   "C_Cpp.errorSquiggles": "disabled",
   "files.associations": {
-    "V-Comparison.C": "cpp"
+    "V-Comparison.C": "cpp",
+    "random": "c"
   }
 }
