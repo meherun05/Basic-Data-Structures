@@ -2,6 +2,7 @@
   "C_Cpp.errorSquiggles": "disabled",
   "files.associations": {
     "V-Comparison.C": "cpp",
-    "random": "c"
+    "random": "c",
+    "string.h": "c"
   }
 }
