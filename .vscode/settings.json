@@ -3,6 +3,7 @@
   "files.associations": {
     "V-Comparison.C": "cpp",
     "random": "c",
-    "string.h": "c"
+    "string.h": "c",
+    "QUIZ.C": "cpp"
   }
 }
