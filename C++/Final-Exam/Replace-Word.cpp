@@ -9,12 +9,10 @@ int main(){
     for (int i = 0; i < t; i++)
     {
         cin >> s >> x;
-        for (auto st = s.begin(),xt = x.begin(); st < s.end(); st++,xt++)
-        {
-            if(*st == *xt){
-                *st = #;
-                break;
-            }
+         size_t pos = s.find(x);
+        while (pos != string::npos) {
+            s.replace(pos, x.length(), "#");  // Replace the found substring with "#"
+            pos = s.find(x, pos + 1);  // Find the next occurrence after the current position
         }
     }
 
