@@ -26,10 +26,13 @@ void insert_at_tail(Node* &head, Node* &tail,int val){
     tail = tail->next;
 }
 
-void print_linked_list(Node* head){
+void print_linked_list_asc(Node* head){
     Node* temp = head;
     while(temp != NULL){
+        if(temp->val > temp->next->val){
         cout << temp->val << " " ;
+
+        }
         temp = temp->next;
     }
 }
@@ -49,7 +52,7 @@ int main(){
     }
     
 
-    print_linked_list(head);
+    print_linked_list_asc(head);
 
     return 0;
 }
