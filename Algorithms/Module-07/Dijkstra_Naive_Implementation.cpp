@@ -40,10 +40,6 @@ int main(){
     {
        dis[i] = INT_MAX;
     }
-    for (int i = 0; i < n; i++)
-    {
-        dis[i] = INT_MAX;
-    }
     
     dikstra(0);
     for (int i = 0; i < n; i++)
