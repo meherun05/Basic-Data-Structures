@@ -1,0 +1,1 @@
+{"name":"Local: Make_It","url":"c:\\Users\\shahin\\Documents\\Phitron\\Algorithms\\Final-Exam\\Make_It.cpp","tests":[{"id":1741716013800,"input":"5\n1\n3\n5\n15\n16","output":"YES\nNO\nYES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\shahin\\Documents\\Phitron\\Algorithms\\Final-Exam\\Make_It.cpp","group":"local","local":true}
