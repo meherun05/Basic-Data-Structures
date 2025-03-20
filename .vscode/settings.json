@@ -51,6 +51,11 @@
     "typeinfo": "cpp",
     "ranges": "cpp",
     "span": "cpp",
-    "coroutine": "cpp"
+    "coroutine": "cpp",
+    "chrono": "cpp",
+    "variant": "cpp",
+    "optional": "cpp",
+    "ratio": "cpp",
+    "regex": "cpp"
   }
 }
